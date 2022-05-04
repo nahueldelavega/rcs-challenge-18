@@ -15,7 +15,7 @@ function rockstar (player){
 
     switch(true){
         case player==bot:
-        alert('Bot jugó ${bot}. Empate');
+        alert(`Bot jugó ${bot}.` + ' Empate');
         break;
         case player=='piedra' && bot=='papel':
         alert(`Bot jugó ${bot}.` + ' Gana bot');
